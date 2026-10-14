@@ -93,7 +93,7 @@ export default function AboutMe() {
                   onClick={() => setActiveSubTab(item)}
                   className={`transition-colors duration-200 cursor-pointer pb-1 ${
                     isCurrent 
-                      ? 'bg-gradient-to-r from-blue-500 to-red-600 bg-clip-text text-transparent' 
+                      ? 'bg-gradient-to-r from-blue-500 to-red-600 bg-clip-text text-transparent border-b-2 border-blue-500 dark:border-red-600 font-semibold ' 
                       : 'hover:text-gray-500 dark:hover:text-gray-400'
                   }`}
                 >
